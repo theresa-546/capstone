@@ -5,7 +5,7 @@ import { MdClose } from 'react-icons/md';
 import {IoIosWater} from 'react-icons/io';
 
 const Background = styled.div`
-width: 600px;
+width: 100%;
 height: 300vh;
 background: rgba(0, 0, 0, 0.8);
 position: fixed;
@@ -15,9 +15,9 @@ margin-left: -15px;
 `;
 
 const ModalWrapper = styled.div`
-  width: 410px;
+  width: 400px;
   height: 300px;
-  margin-left: 20px;  
+  margin-left: 5px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
@@ -38,7 +38,7 @@ const ModalContent = styled.div`
   align-items: center;
   line-height: 1.4;
   color: #141414;
-  padding: 50px;
+  padding: 40px;
 
 
   p {
@@ -67,7 +67,7 @@ export const Modal3 = ({ showModal3, setShowModal3 }) => {
       duration: 300
     },
     opacity: showModal3 ? 1 : 0,
-    transform: showModal3 ? `translateY(-150%)` : `translateY(-100%)`
+    transform: showModal3 ? `translateY(-130%)` : `translateY(-100%)`
   });
 
   const closeModal = e => {

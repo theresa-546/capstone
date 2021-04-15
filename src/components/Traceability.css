@@ -1,12 +1,12 @@
   .col {
     padding-right: 15px;
     padding-left: 15px;
-    max-width: 70%;
+    width: 390px;
     flex-basis: 50%;
   }
 
   .home__hero-text-wrapper {
-    max-width: 100%;
+    width: 390px;
     padding-top: 0;
     padding-bottom: 0;
    
@@ -32,7 +32,7 @@
   
   
   .home__hero-subtitle {
-    max-width: 440px;
+    max-width: 390px;
     font-size: 18px;
     line-height: 10px;
   }
@@ -42,7 +42,7 @@
   }
   
   .home__hero-img {
-    max-width: 95%;
+    max-width: 390px;
     margin-top: 0;
     margin-right: 0;
     margin-left: 10px;

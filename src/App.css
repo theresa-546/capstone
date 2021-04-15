@@ -16,14 +16,29 @@
   height: 100%;
 }
 
-.productList{
-  display: inline-flex;
-  flex-wrap: wrap;
-  
+.salad-preview{
+  width: 100%;
 }
 
+.space{
+  height: 30px;
+  margin-bottom: 70px;
+}
+
+.productList{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.farm-img{
+  width: 390px;
+}
+
+
 .productList > div{
-  margin: -10px;
+  margin: 10px;
 }
 
 
@@ -51,7 +66,7 @@
 
 #salad-pic{
   width: 350px;
-  margin-left: 15%;
+  margin-left: 10px;
 
 }
 
@@ -68,6 +83,7 @@
 .plantPage{
   display: flex;
   flex-wrap: wrap;
+  width: 390px;
 }
 
 .iconssvg{
@@ -115,6 +131,10 @@
 
 }
 
+.productTitle{
+  width: 100%;
+}
+
 .hydroponics-overlay-title{
   display: flex;
   flex-direction: row;
@@ -128,22 +148,10 @@
   width: 80px;
 }
 
-.line-break{
-  background-color: black;
-}
-
-@media screen and (max-width: 480px) {
-  
- .productImgGallery{
-   width: 100%;
-   height: 100%;
- }
-}
-
 .slider{
   border: 1px solid #e7e7e7;
   position: relative;
-  width: 100%;
+  width: 390px;
   height: 300px;
   box-sizing: border-box;
   margin: 0;
@@ -159,6 +167,16 @@
   height: 300px;
   transition: 0.5s;
 }
+
+@media screen and (max-width: 480px) {
+  
+ .productImgGallery{
+   width: 100%;
+   height: 100%;
+ }
+}
+
+
 
 #goLeft{
   position: absolute;
@@ -197,5 +215,3 @@
   width: 50px;
   color: #008798;
 }
-
-@import "react-alice-carousel/lib/alice-carousel.css";

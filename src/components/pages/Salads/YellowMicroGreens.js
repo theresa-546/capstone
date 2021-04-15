@@ -5,6 +5,7 @@ import { redMizuna, yellowMicroSaladPage, mizAmerica, mustardRuby, greenSorrel }
 function YellowMicroGreens() {
   return (
     <>
+    <div className='salad-preview'>
     <h1 id="heading">Yellow Micro Greens</h1>
     <img id='salad-pic' src='images/yellow.jpeg'/>
     
@@ -14,7 +15,9 @@ function YellowMicroGreens() {
       <div><Contents {...mizAmerica}/></div>
       <div><Contents {...mustardRuby}/></div>
       <div><Contents {...greenSorrel}/></div>
+      <div className='space'></div>
 
+      </div>
       </div>
     </>
   );

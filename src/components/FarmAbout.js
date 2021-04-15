@@ -1,7 +1,5 @@
 import React from 'react';
 import './About.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
 
 function FarmAbout() {
     return (    
@@ -14,9 +12,9 @@ function FarmAbout() {
               <p className='trib-text' >
                   Tribeca, New York
                 </p>
-                <div className='top-line'>About</div>
+                <div className='subheading'>About</div>
             
-                <p>
+                <p id='text'>
                 This farm has over 1,200 square feet of vertical 
 racks, using Deep Water Culture and Flood and 
 Drain systems. The farm is designed to have 

@@ -16,6 +16,7 @@
   .trib-text{
     margin-top: -15px;
     margin-bottom: 30px;
+    margin-left: 10px;
   }
   
   .top-line {
@@ -43,7 +44,7 @@
   .desc{
     font-size: 18px;
     line-height: 24px;
-    max-width: 440px;
+    max-width: 390px;
     margin-bottom: 35px;
   }
   

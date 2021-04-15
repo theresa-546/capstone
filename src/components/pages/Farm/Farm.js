@@ -9,7 +9,7 @@ function Farm() {
       
       <div className='productsPage'>
       <FarmAbout {...tribeca}/>
-      <h2 className= 'top-line'>Other Products</h2>
+      <h2 className= 'subheading'>Other Products</h2>
       <div className='productList'>
       <div><ProductButton {...yellowMicro} /></div>
       <div><ProductButton {...blueHerbs} /></div>
