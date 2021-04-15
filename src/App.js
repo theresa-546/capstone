@@ -4,7 +4,7 @@ import Home from './components/pages/HomePage/Home';
 import Products from './components/pages/Products/Products';
 import Trace from './components/pages/Trace/Trace';
 import Salads from './components/pages/Salads/Salads';
-import Plant from './components/pages/Plant/Plant';
+import LemonBalm from './components/pages/Plant/LemonBalm';
 import RedMizuna from './components/pages/Plant/RedMizuna';
 import RedMizunaT from './components/pages/PlantTrace/RedMizunaT';
 import MizAmerica from './components/pages/Plant/MizAmerica';
@@ -31,7 +31,7 @@ function App() {
         <Route path='/salads' component={Salads} />
         <Route path='/yellow-micro-greens' component={YellowMicroGreens} />
         <Route path='/red-baby-greens' component={RedBabyGreens} />
-        <Route path='/plant' component={Plant} />
+        <Route path='/lemon-balm' component={LemonBalm} />
         <Route path='/mustard-ruby' component={MustardRuby} />
         <Route path='/green-sorrel' component={GreenSorrel} />
         <Route path='/red-mizuna' component={RedMizuna} />

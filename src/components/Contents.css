@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 .content-container {
   display: flex;
   flex-direction: row;
@@ -7,7 +9,7 @@
   height: 150px;
   padding: 15px;
   color: #fff;
-
+  
 }
 
 
@@ -18,7 +20,7 @@
   justify-content: space-evenly;
   align-items: center;
   height:150px;
-  width: 475px;
+  width: 450px;
   margin-left: -20px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;

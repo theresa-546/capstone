@@ -15,9 +15,9 @@ margin-left: -15px;
 `;
 
 const ModalWrapper = styled.div`
-  width: 450px;
-  height: 380px;
-  margin-left: 30px;
+  width: 410px;
+  height: 350px;
+  margin-left: 20px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;

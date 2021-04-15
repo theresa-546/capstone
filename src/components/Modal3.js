@@ -15,9 +15,9 @@ margin-left: -15px;
 `;
 
 const ModalWrapper = styled.div`
-  width: 450px;
+  width: 410px;
   height: 300px;
-  margin-left: 30px;
+  margin-left: 20px;  
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
@@ -67,7 +67,7 @@ export const Modal3 = ({ showModal3, setShowModal3 }) => {
       duration: 300
     },
     opacity: showModal3 ? 1 : 0,
-    transform: showModal3 ? `translateY(-140%)` : `translateY(-100%)`
+    transform: showModal3 ? `translateY(-150%)` : `translateY(-100%)`
   });
 
   const closeModal = e => {

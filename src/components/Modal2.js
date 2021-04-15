@@ -2,7 +2,6 @@ import React, { useRef, useEffect, useCallback } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
-import {AiOutlineStop} from 'react-icons/ai';
 
 const Background = styled.div`
 width: 600px;
@@ -15,9 +14,9 @@ margin-left: -15px;
 `;
 
 const ModalWrapper = styled.div`
-  width: 450px;
-  height: 380px;
-  margin-left: 30px;
+  width: 410px;
+  height: 350px;
+  margin-left: 20px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
@@ -67,7 +66,7 @@ export const Modal2 = ({ showModal2, setShowModal2 }) => {
       duration: 300
     },
     opacity: showModal2 ? 1 : 0,
-    transform: showModal2 ? `translateY(-90s%)` : `translateY(-100%)`
+    transform: showModal2 ? `translateY(-100%)` : `translateY(-100%)`
   });
 
   const closeModal = e => {
