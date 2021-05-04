@@ -1,29 +1,37 @@
 import React from 'react';
-import HeroSection from '../../HeroSection';
-import Pricing from '../../Pricing';
 import { Button} from '../../Button';
 import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <>
-    <div className='homeButtons'>
-      <div className='homeButtonItems'><Link to='/products'>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    View Products
-                  </Button>
-                </Link>
-                </div>
+    <div className='home_first-block' ><p id='home-title'>Track your food with 
+<p id='home-title_bold-text'>Food Bio</p></p>
+</div>
 
-    <div className= 'homeButtonItems'>
-    <Link to='/trace'>
-      <Button buttonSize='btn--wide' buttonColor='blue'>
-        How to Trace
-      </Button>
-    </Link>
-    </div>
-    
-    </div>
+<div className='mockup-row' ><p id='home-subtitle'>Designed to help you
+trace the origins of your
+food. Scan the QR code
+on your farm produce
+to check information</p>
+<img id='mockup' src='images/mockup.png'/>
+</div>
+
+<div className='home_second-block'>
+  <p id='home-title-white'>Why traceability matters</p>
+  <p id='home-subtitle-white'>The ability to trace back the history of a food product is a crucial process that maintains food safety.</p>
+
+</div>
+
+<div className='home-third-block'><p id='home-title'>Partnered with </p> 
+<img id='farmone-logo' src='images/farmone-logo.png'/>
+<p id='home-farm-text'>Farm.One is an urban, vertical farm in New York City, that sells salad harvested straight from their farm.</p>
+<img id='home-farm-pic' src='images/farmone.jpeg'/>
+<p id='home-farm-text'>All product information including 
+images and videos used on this site is credited to farm.one</p>
+</div>
+
+   
     </>
   );
 }
