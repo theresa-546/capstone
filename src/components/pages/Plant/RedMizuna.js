@@ -1,4 +1,4 @@
-import React, { Component, Link, useState }  from 'react';
+import React, { useState }  from 'react';
 import About from '../../About';
 import Traceability from '../../Traceability';
 import Farm from '../../Farm';
@@ -21,7 +21,7 @@ function RedMizuna() {
 
   return (
     <>
-   
+   <div className='plant_info-container'>
     <div className="productTitle">
       
     
@@ -47,7 +47,7 @@ function RedMizuna() {
     <div><About {...redMizunaAbout}/></div>
     <div><Farm /></div>
     </div>
-
+    </div>
 
     </>
   );

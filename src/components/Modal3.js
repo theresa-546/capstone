@@ -15,20 +15,13 @@ margin-left: -15px;
 `;
 
 const ModalWrapper = styled.div`
-  width: 400px;
+  width: 90%;
   height: 300px;
   margin-left: 5px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
   border-radius: 20px;
-`;
-
-const ModalImg = styled.img`
-  width: 100px;
-  height: 100px;
-  border-radius: 10px 0 0 10px;
-  background: #000;
 `;
 
 const ModalContent = styled.div`

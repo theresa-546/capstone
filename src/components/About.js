@@ -9,7 +9,7 @@ import {IoIosWater, IoMdInformationCircleOutline} from 'react-icons/io';
 import {AiOutlineStop, AiOutlineCalendar} from 'react-icons/ai';
 
 const Container = styled.div`
-width: 450px;
+width: 100%;
 height: 20px;
 display: flex;
 flex-direction: row;
@@ -50,60 +50,32 @@ function About({lightText, lightTextDesc, description, harvestTime}) {
     return (    
     <>
             <div className='col'>
-              <div className='home__hero-text-wrapper'>
+              
                 <div className='top-line'>About</div>
                 <p className='desc'>
                   {description}
                 </p>
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                >
+                <p className='infographic-text'>
                   <Container><AiOutlineStop className= 'icons'/> No pesticides <Button onClick={openModal}><IoMdInformationCircleOutline className='i-icon'/></Button><Modal showModal={showModal} setShowModal={setShowModal} /></Container>
                 </p>
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                >
+                <p className='infographic-text'>
                  <Container><div className='about-line-icon'><img className= 'iconssvg' src='images/vfarm.svg'/> Vertical Farming <Button onClick={openModal2}><IoMdInformationCircleOutline className='i-icon'/></Button></div><Modal2 showModal2={showModal2} setShowModal2={setShowModal2} /></Container>
                 </p> 
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                >
+                <p className='infographic-text'>
                   <Container><div className='about-line-icon'><IoIosWater className= 'icons'/> Hydroponics <Button onClick={openModal3}><IoMdInformationCircleOutline className='i-icon'/></Button></div><Modal3 showModal3={showModal3} setShowModal3={setShowModal3} /></Container>
                 </p> 
                 <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
+                  className='infographic-text'
                 >
                   <FaSeedling className= 'icons'/> {harvestTime} to grow and harvest
                 </p>
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                >
+                <p className='infographic-text'>
                  
                  <AiOutlineCalendar className= 'icons'/> Grown year-round
                 </p>
                 
                 
-              </div>
+              
             </div>
        
     </>

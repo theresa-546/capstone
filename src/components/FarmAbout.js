@@ -6,7 +6,7 @@ function FarmAbout() {
     <>
       
             <div className='col'>
-              <div className='home__hero-text-wrapper'>
+              <div className='farm-about_container'>
               <div className='top-line'>Farm.One Tribeca</div>
                   <div><img src='images/tribeca.jpeg'/></div> 
               <p className='trib-text' >
@@ -14,7 +14,7 @@ function FarmAbout() {
                 </p>
                 <div className='subheading'>About</div>
             
-                <p id='text'>
+                <p id='trib-desc'>
                 This farm has over 1,200 square feet of vertical 
 racks, using Deep Water Culture and Flood and 
 Drain systems. The farm is designed to have 
@@ -22,13 +22,11 @@ multiple different growing areas, allowing for a
 huge variety of crops to be grown. Built in tight 
 New York city basement surroundings, the farm 
 is as efficient as possible, using every square 
-inch of space.
-                </p>
+inch of space.</p>
                 
               </div>
             </div>
         
-          
     </>
     );
 }

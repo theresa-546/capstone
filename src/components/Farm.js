@@ -8,7 +8,7 @@ function Farm() {
     <>
       
             <div className='col'>
-              <div className='home__hero-text-wrapper'>
+             
               <div className='top-line'>Traceability</div>
                  <Link to='/farm'> <div><img className='farm-img' src='images/tribeca.jpeg'/></div> </Link>
                 <div className='farmTitle'><p>
@@ -26,7 +26,7 @@ function Farm() {
               
                 
               </div>
-            </div>
+            
         
           
        

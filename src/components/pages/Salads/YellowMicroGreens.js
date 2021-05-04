@@ -15,7 +15,7 @@ function YellowMicroGreens() {
       <div><Contents {...mizAmerica}/></div>
       <div><Contents {...mustardRuby}/></div>
       <div><Contents {...greenSorrel}/></div>
-      <div className='space'></div>
+     
 
       </div>
       </div>

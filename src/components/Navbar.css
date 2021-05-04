@@ -3,6 +3,7 @@
 .navbar {
   background: #67843C;
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,17 +18,14 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
+  width: 100%;
   font-family: 'Rubik', sans-serif;
 }
 
 .container {
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
+ 
 }
 
 .navbar-logo {
