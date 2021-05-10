@@ -1,5 +1,5 @@
 export const blueHerbs = {
-page: '/salads',
+page: '/blue-herbs-flowers',
 productImg: 'images/blue.jpeg',
 alt: 'Blue Herbs and Flowers Salad Box',
 productName: 'Blue Herbs and Flowers',

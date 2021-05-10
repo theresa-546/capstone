@@ -11,7 +11,7 @@ function Home() {
 
 <div className='mockup-row' ><p id='home-subtitle'>Designed to help you
 trace the origins of your
-food. Scan the QR code
+food. <br></br> Scan the QR code
 on your farm produce
 to check information</p>
 <img id='mockup' src='images/mockup.png'/>
@@ -19,7 +19,7 @@ to check information</p>
 
 <div className='home_second-block'>
   <p id='home-title-white'>Why traceability matters</p>
-  <p id='home-subtitle-white'>The ability to trace back the history of a food product is a crucial process that maintains food safety.</p>
+  <p id='home-subtitle-white'>The ability to trace back the history of a food product is a crucial process that ensures food quality and maintains food safety.</p>
 
 </div>
 

@@ -1,3 +1,4 @@
+//blue herbs 
 export const lemonBalm = {
     productName: 'Lemon Balm',
     img1:'images/lemon balm.jpg',
@@ -9,8 +10,8 @@ export const lemonBalm = {
 export const lemonBalmAbout = {
     lightText: false,
     lightTextDesc: false,
-    description: 'An herb with a lemon aroma with a hint of mint.',
-
+    description: 'An herb with a lemon aroma with a hint of mint. Lemon balm is best used when fresh and raw as the delicate flavors can be lost when cooked or dried.',
+    harvestTime: '3 weeks'
 }
 
 export const lemonBalmTraceability = {
@@ -21,6 +22,28 @@ export const lemonBalmTraceability = {
 
 }
 
+export const microLovageAbout = {
+    lightText: false,
+    lightTextDesc: false,
+    description: 'Commonly known as sea-parsley, lovage is a versatile micro herb and preferred seasoning in stocks, stews, and infusions. It is also popularly used in cocktails, cosmetics, and functional medicine. Once its oils unleash, lovage imparts a deep, celery-like aroma that provides a rich and nuanced base flavor.',
+    harvestTime: '2 weeks'
+}
+
+export const dianthusAbout = {
+    lightText: false,
+    lightTextDesc: false,
+    description: 'The assorted dianthus flower mix contains multiple pink colorations.',
+    harvestTime: '3 weeks'
+}
+
+export const yarrowFlowerAbout = {
+    lightText: false,
+    lightTextDesc: false,
+    description: 'Yarrow (or Achillea) is a hardy plant native to North American prairies with over 80 varieties. Its aromatic feather-like leaves are thickest at the middle and taper off at the ends. The aroma of both leaf and flower is similar to chrysanthemums. Yarrow blooms pink, yellow, or white flowers, which can be used for a confetti-like effect in cookie batters and cake mixes.',
+    harvestTime: '3 weeks'
+}
+
+//yellow micro greens
 export const redMizuna = {
     productName: 'Micro Red Mizuna',
     img1:'images/red mizuna.jpg',

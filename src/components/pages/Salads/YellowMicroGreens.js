@@ -1,6 +1,6 @@
 import React from 'react';
 import Contents from '../../Contents';
-import { redMizuna, yellowMicroSaladPage, mizAmerica, mustardRuby, greenSorrel } from './Data';
+import { redMizuna, mizAmerica, mustardRuby, greenSorrel } from './Data';
 
 function YellowMicroGreens() {
   return (

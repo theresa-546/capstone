@@ -6,13 +6,42 @@ export const blueHerbs = {
 
 // content preview info/pics
 
+//blue herbs and flowers content preview page
 export const lemonBalm = {
-    page: '/plant', 
+    page: '/lemon-balm', 
     productName: 'Lemon Balm',
     productImg: 'images/lemon balm.jpg',
     alt: 'lemon balm',
+    summary: 'An herb with a lemon aroma with a hint of mint.',
 
 };
+
+export const microLovage = {
+    page: '/micro-lovage', 
+    productName: 'Micro Lovage',
+    productImg: 'images/lovage.jpg',
+    alt: 'micro lovage',
+    summary: 'Commonly known as sea-parsley, lovage is a versatile micro herb.',
+
+};
+
+export const dianthus = {
+    page: '/assorted-dianthus', 
+    productName: 'Assorted Dianthus',
+    productImg: 'images/assorted dianthus.jpg',
+    alt: 'assorted dianthus',
+    summary: 'The assorted dianthus flower mix contains multiple pink colorations.',
+};
+
+export const yarrowFlower = {
+    page: '/yarrow-flower', 
+    productName: 'Yarrow Flower',
+    productImg: 'images/yarrow flower.jpg',
+    alt: 'yarrow flower',
+    summary: 'Yarrow (or Achillea) is a hardy plant native to North American prairies with over 80 varieties.',
+};
+
+//yellow micro greens content preview
 
 export const redMizuna ={
     page: '/red-mizuna',
@@ -46,6 +75,65 @@ export const greenSorrel ={
     alt: 'micro green sorrel',
     summary: 'Micro green sorrel green leaves are slender and long. Their flavor is sour and can be powerful depending on leaf size.',
 }
+
+//red baby greens content preview page
+
+export const greenMizuna ={
+    page: '/micro-mizuna-green',
+    productName: 'Micro Mizuna (Green)',
+    productImg: 'images/micro mizuna green.jpg',
+    alt: 'micro mizuna green',
+    summary:'Micro Mizuna (green) has a milder flavor with peppery overtones.'
+}
+
+export const summerSavory ={
+    page: '/summer-savory',
+    productName: 'Summer Savory',
+    productImg: 'images/summer savory.jpeg',
+    alt: 'summer savory',
+    summary:'Summer Savory has a peppery, thyme-like flavor.',
+}
+
+export const leisureCilantro ={
+    page: '/micro-leisure-cilantro',
+    productName: 'Micro Leisure Cilantro',
+    productImg: 'images/micro leisure cilantro.jpeg',
+    alt: 'micro leisure cilantro',
+    summary:'Micro cilantro, also known as Mexican and Chinese parsley, is a handy micro herb which grows from the tender leaf and stem of the coriander seed.'
+}
+
+export const pea ={
+    page: '/pea-afilla',
+    productName: 'Pea (Afilla)',
+    productImg: 'images/pea(afilla).jpeg',
+    alt: 'pea afilla',
+    summary:'These pea shoots and their wispy tendrils can be deconstructed or used whole as a raw garnish or an alternative lettuce substitute'
+}
+
+export const blueBasil ={
+    page: '/blue-spice-basil',
+    productName: 'Blue Spice Basil',
+    productImg: 'images/blue spice basil.jpeg',
+    alt: 'blue spice basil',
+    summary:'A variety of basil with great floral sweetness and a hint of vanilla.'
+}
+
+export const lemonBasil ={
+    page: '/lemon-basil',
+    productName: 'Lemon Basil',
+    productImg: 'images/lemon basil.jpeg',
+    alt: 'lemon basil',
+    summary:'With a lemon fragrance, this basil variety has a sweet lemon flavor.'
+}
+
+export const parsley={
+    page: '/micro-parsley',
+    productName: 'Micro Parsley',
+    productImg: 'images/micro parsley.jpeg',
+    alt: 'micro parsley',
+    summary:'Its bright flavor is reminiscent of celery and lemon with hints of anise and pepper.'
+}
+
 // top salad pics
 
 

@@ -12,11 +12,12 @@ position: fixed;
 display: flex;
 align-items: center;
 margin-left: -15px;
+z-index: 9;
 `;
 
 const ModalWrapper = styled.div`
   width: 90%;
-  height: 300px;
+  height: 70%;
   margin-left: 5px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
@@ -45,7 +46,7 @@ const CloseModalButton = styled(MdClose)`
   cursor: pointer;
   position: absolute;
   top: 20px;
-  right: 40px;
+  right: 50px;
   width: 32px;
   height: 32px;
   padding: 0;

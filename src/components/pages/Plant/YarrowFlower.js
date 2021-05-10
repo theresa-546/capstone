@@ -2,13 +2,13 @@ import React, { useState }  from 'react';
 import About from '../../About';
 import Traceability from '../../Traceability';
 import Farm from '../../Farm';
-import { lemonBalmAbout, lemonBalmTraceability } from './Data';
+import { yarrowFlowerAbout } from './Data';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
 
-function LemonBalm() {
+function YarrowFlower() {
   //array for component to show inside the slider
-  let sliderArr = [<img id='plant-top-pic' src='images/lemon balm.jpg'/>, <img src='images/lemon balm size.jpeg'/>];
+  let sliderArr = [<img src='images/yarrow flower.jpg'/>, <img src='images/yarrow flower size.jpg'/>];
   const [x, setX] = useState(0)
   const goLeft=()=>{
     x=== 0 ? setX(-100*(sliderArr.length-1)) : setX(x + 100);
@@ -24,7 +24,7 @@ function LemonBalm() {
     <div className="productTitle">
       
     
-            <h1 id="heading">Lemon Balm</h1>
+            <h1 id="heading">Yarrow Flower</h1>
             <div className='slider'>
       {
         sliderArr.map((item, index)=>{
@@ -43,7 +43,7 @@ function LemonBalm() {
         </div>
     <div className='plantPage'>
 
-    <div><About {...lemonBalmAbout}/></div>
+    <div><About {...yarrowFlowerAbout }/></div>
     <div><Farm /></div>
     </div>
 
@@ -52,4 +52,4 @@ function LemonBalm() {
   );
 }
 
-export default LemonBalm;
+export default YarrowFlower;
