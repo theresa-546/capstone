@@ -11,10 +11,10 @@ import MicroLovage from './components/pages/Plant/MicroLovage';
 import AssortedDianthus from './components/pages/Plant/AssortedDianthus';
 import YarrowFlower from './components/pages/Plant/YarrowFlower';
 import RedMizuna from './components/pages/Plant/RedMizuna';
-import RedMizunaT from './components/pages/PlantTrace/RedMizunaT';
 import MizAmerica from './components/pages/Plant/MizAmerica';
 import MustardRuby from './components/pages/Plant/MustardRuby';
 import GreenSorrel from './components/pages/Plant/GreenSorrel';
+import AboutPage from './components/pages/About/AboutPage'
 import Farm from './components/pages/Farm/Farm';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -30,6 +30,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/products' component={Products} />
+        <Route path='/about' component={AboutPage} />
         <Route path='/trace' component={Trace} />
         <Route path='/blue-herbs-flowers' component={BlueHerbs} />
         <Route path='/yellow-micro-greens' component={YellowMicroGreens} />
@@ -41,7 +42,6 @@ function App() {
         <Route path='/mustard-ruby' component={MustardRuby} />
         <Route path='/green-sorrel' component={GreenSorrel} />
         <Route path='/red-mizuna' component={RedMizuna} />
-        <Route path='/red-mizuna-trace' component={RedMizunaT} />
         <Route path='/miz-america' component={MizAmerica} />
         <Route path='/farm' component={Farm} />
       </Switch>

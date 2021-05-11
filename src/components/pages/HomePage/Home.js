@@ -11,9 +11,9 @@ function Home() {
 
 <div className='mockup-row' ><p id='home-subtitle'>Designed to help you
 trace the origins of your
-food. <br></br> Scan the QR code
+food. <br></br> <br></br> Scan the QR code
 on your farm produce
-to check information</p>
+for more detail</p>
 <img id='mockup' src='images/mockup.png'/>
 </div>
 
