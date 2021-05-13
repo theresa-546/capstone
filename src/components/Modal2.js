@@ -11,7 +11,7 @@ position: fixed;
 display: flex;
 align-items: center;
 margin-left: -15px;
-z-index: 9;
+z-index: 15;
 `;
 
 const ModalWrapper = styled.div`
