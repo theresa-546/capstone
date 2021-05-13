@@ -6,19 +6,20 @@ import {IoIosWater} from 'react-icons/io';
 
 const Background = styled.div`
 width: 100%;
-height: 300vh;
+height: 325vh;
 background: rgba(0, 0, 0, 0.8);
 position: fixed;
 display: flex;
 align-items: center;
 margin-left: -15px;
 z-index: 9;
+
 `;
 
 const ModalWrapper = styled.div`
   width: 90%;
   height: 70%;
-  margin-left: 5px;
+  margin-left: 15px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;

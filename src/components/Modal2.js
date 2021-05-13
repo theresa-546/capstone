@@ -17,7 +17,7 @@ z-index: 9;
 const ModalWrapper = styled.div`
   width: 90%;
   height: 50%;
-  margin-left: 5px;
+  margin-left: 15px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
