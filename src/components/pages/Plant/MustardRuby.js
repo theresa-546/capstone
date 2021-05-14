@@ -5,7 +5,7 @@ import { mustardRubyAbout  } from './Data';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
 function MustardRuby() {
-  let sliderArr = [<img id='plant-top-pic' src='images/micro ruby streak mustard.jpg'/>, <img src='images/micro ruby streak mustard size.jpg'/>, <video src='images/micro ruby streak mustard vid.mp4' width="500" height="300" controls="controls" autoplay="false" />];
+  let sliderArr = [<img id='plant-top-pic' src='images/micro ruby streak mustard.jpg'/>, <img src='images/micro ruby streak mustard size.jpg'/>, <video src='images/micro ruby streak mustard vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
   const [x, setX] = useState(0)
   const goLeft=()=>{
     x=== 0 ? setX(-100*(sliderArr.length-1)) : setX(x + 100);

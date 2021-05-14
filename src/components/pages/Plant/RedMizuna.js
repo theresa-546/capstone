@@ -8,7 +8,7 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 
 function RedMizuna() {
   //array for component to show inside the slider
-  let sliderArr = [<img id='plant-top-pic' src='images/red mizuna.jpg'/>, <img src='images/red mizuna size 2.jpg'/>, <img id='plant-top-pic' src='images/red mizuna pot.jpg'/>, <video src='images/red mizuna vid.mp4' width="500" height="300" controls="controls" autoplay="false" />];
+  let sliderArr = [<img id='plant-top-pic' src='images/red mizuna.jpg'/>, <img src='images/red mizuna size 2.jpg'/>, <img id='plant-top-pic' src='images/red mizuna pot.jpg'/>, <video src='images/red mizuna vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
   const [x, setX] = useState(0)
   const goLeft=()=>{
     x=== 0 ? setX(-100*(sliderArr.length-1)) : setX(x + 100);
