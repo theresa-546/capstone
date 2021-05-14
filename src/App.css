@@ -25,6 +25,7 @@
   position: absolute;
 }
 
+
 #mockup{
   width: 70%;
   margin-left: 50%;
@@ -101,10 +102,9 @@
 /* about page */
 
 .about-text-block{
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  width: 90%;
+  margin-left: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 #about-title{
@@ -113,9 +113,15 @@
 
 }
 
+#about-subtitle{
+  font-size: 20px;
+  width: 80%;
+  line-height: 30px;
+}
+
 .about_first-block{
-  padding: 5px;
-  width: 90%;
+  margin-left: 10px;
+  width: 100%;
   margin-top: 20px;
 }
 
