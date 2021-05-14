@@ -1,8 +1,6 @@
   .col {
-    padding-right: 15px;
-    padding-left: 15px;
     width: 100%;
-    flex-basis: 50%;
+    flex-basis: 100%;
   }
 
   
@@ -50,8 +48,28 @@
 
  .farm-info{
    margin-top: 25px;
+   line-height: 25px;
  }
- 
+
+.col {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+
 
 
   

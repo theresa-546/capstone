@@ -21,10 +21,10 @@ function Traceability() {
                   Tribeca, New York
                 </p>
                 <p>
-                  Harvest Date: March 17, 2021
+                  Harvest Date: May 14, 2021
                 </p>
                 <p>
-                  Packaging Date: March 17, 2021
+                  Packaging Date: May 14, 2021
                 </p>
             </div>
               </div>
