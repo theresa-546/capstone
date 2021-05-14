@@ -1,7 +1,6 @@
 import React, { useState }  from 'react';
 import About from '../../About';
 import Traceability from '../../Traceability';
-import Farm from '../../Farm';
 import { microLovageAbout} from './Data';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
@@ -45,7 +44,7 @@ function MicroLovage() {
     <div className='plantPage'>
 
     <div><About {...microLovageAbout}/></div>
-    <div><Farm /></div>
+    <div><Traceability/></div>
     </div>
 
 

@@ -1,8 +1,7 @@
 import React, { useState }  from 'react';
 import About from '../../About';
 import Traceability from '../../Traceability';
-import Farm from '../../Farm';
-import { redMizunaAbout, redMizunaTraceability } from './Data';
+import { redMizunaAbout} from './Data';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
@@ -45,7 +44,7 @@ function RedMizuna() {
     <div className='plantPage'>
 
     <div><About {...redMizunaAbout}/></div>
-    <div><Farm /></div>
+    <div><Traceability/></div>
     </div>
     </div>
 

@@ -1,7 +1,6 @@
 import React, { useState }  from 'react';
 import About from '../../About';
 import Traceability from '../../Traceability';
-import Farm from '../../Farm';
 import { yarrowFlowerAbout } from './Data';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
@@ -44,7 +43,7 @@ function YarrowFlower() {
     <div className='plantPage'>
 
     <div><About {...yarrowFlowerAbout }/></div>
-    <div><Farm /></div>
+    <div><Traceability/></div>
     </div>
 
 

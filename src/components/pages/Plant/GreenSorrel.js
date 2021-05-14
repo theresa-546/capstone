@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
-import HeroSection from '../../HeroSection';
 import About from '../../About';
 import Traceability from '../../Traceability';
 import { greenSorrelAbout } from './Data';
-import Farm from '../../Farm';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
 function GreenSorrel() {
@@ -42,7 +40,7 @@ function GreenSorrel() {
   <div className='plantPage'>
 
   <div><About {...greenSorrelAbout}/></div>
-    <Farm/>
+  <Traceability/>
 </div>
       
     </>

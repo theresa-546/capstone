@@ -1,8 +1,7 @@
 import React, { useState }  from 'react';
 import About from '../../About';
 import Traceability from '../../Traceability';
-import Farm from '../../Farm';
-import { lemonBalmAbout, lemonBalmTraceability } from './Data';
+import { lemonBalmAbout } from './Data';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
 
@@ -44,7 +43,7 @@ function LemonBalm() {
     <div className='plantPage'>
 
     <div><About {...lemonBalmAbout}/></div>
-    <div><Farm /></div>
+    <div><Traceability/></div>
     </div>
 
 

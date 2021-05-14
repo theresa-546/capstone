@@ -3,16 +3,15 @@ import './Traceability.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
-function Traceability({harvestDate, packageDate}) {
+function Traceability() {
     return (    
     <>
     <div className='col'>
             
               <div className='top-line'>Traceability</div>
-                 <Link to='/farm'> <div><img src='images/tribeca.jpeg'/></div> </Link>
-                <div className='farmTitle'><p>
-                  Farm.One Tribeca
-                </p> <Link to='/farm'>
+                 <Link to='/farm'> <div><img className='farm-img' src='images/tribeca.jpeg'/></div> </Link>
+                <div className='farmTitle'>
+                  <p>Farm.One Tribeca</p> <Link to='/farm'>
                   <Button buttonSize='btn--mobile' buttonColor='blue'>
                     Learn More
                   </Button>
@@ -22,15 +21,14 @@ function Traceability({harvestDate, packageDate}) {
                   Tribeca, New York
                 </p>
                 <p>
-                  Harvest Date: {harvestDate}
+                  Harvest Date: March 17, 2021
                 </p>
                 <p>
-                  Packaging Date: {packageDate}
+                  Packaging Date: March 17, 2021
                 </p>
             </div>
               </div>
             
-  
     </>
     );
 }
