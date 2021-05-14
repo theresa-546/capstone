@@ -6,7 +6,8 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 
 
 function AssortedDianthus() {
-  //array for component to show inside the slider
+  //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
+  //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
   let sliderArr = [<img  src='images/assorted dianthus.jpg'/>, <img src='images/assorted dianthus size.jpg'/>, <img src='images/assorted dianthus size 2.jpg'/>];
   const [x, setX] = useState(0)
   const goLeft=()=>{

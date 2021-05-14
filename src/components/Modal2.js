@@ -1,3 +1,6 @@
+//from Brian Design's React Modal Tutorial Using Hooks and Styled Components
+//https://www.youtube.com/watch?v=d3aI1Dt0Z50&t=1221s&ab_channel=BrianDesign
+
 import React, { useRef, useEffect, useCallback } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';

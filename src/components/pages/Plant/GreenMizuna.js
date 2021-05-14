@@ -5,6 +5,8 @@ import { greenMizunaAbout} from './Data';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
 function GreenMizuna() {
+  //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
+  //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
   let sliderArr = [<img id='plant-top-pic' src='images/micro Mizuna green.jpg'/>, <img src='images/micro mizuna green size.jpg'/>];
   const [x, setX] = useState(0)
   const goLeft=()=>{

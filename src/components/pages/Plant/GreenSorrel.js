@@ -5,6 +5,8 @@ import { greenSorrelAbout } from './Data';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
 function GreenSorrel() {
+  //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
+  //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
   let sliderArr = [<img id='plant-top-pic' src='images/micro green sorrel.jpg'/>, <img src='images/micro green sorrel size.jpg'/>];
   const [x, setX] = useState(0)
   const goLeft=()=>{

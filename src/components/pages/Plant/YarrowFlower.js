@@ -6,7 +6,8 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 
 
 function YarrowFlower() {
-  //array for component to show inside the slider
+  //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
+  //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
   let sliderArr = [<img src='images/yarrow flower.jpg'/>, <img src='images/yarrow flower size.jpg'/>];
   const [x, setX] = useState(0)
   const goLeft=()=>{

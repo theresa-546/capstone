@@ -5,6 +5,8 @@ import { peaAbout} from './Data';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
 function Pea() {
+  //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
+  //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
   let sliderArr = [<img id='plant-top-pic' src='images/pea(afilla).jpeg'/>, <img src='images/pea(afilla) size.jpg'/>, <video src='images/pea(afilla) vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
   const [x, setX] = useState(0)
   const goLeft=()=>{

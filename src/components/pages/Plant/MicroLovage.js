@@ -7,7 +7,8 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 
 
 function MicroLovage() {
-  //array for component to show inside the slider
+  //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
+  //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
   let sliderArr = [<img id='plant-top-pic' src='images/lovage.jpg'/>, <img src='images/lovage size.jpg'/>];
   const [x, setX] = useState(0)
   const goLeft=()=>{
