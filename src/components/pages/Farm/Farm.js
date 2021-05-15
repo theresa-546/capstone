@@ -1,6 +1,6 @@
 import React from 'react';
 import FarmAbout from '../../FarmAbout';
-import { tribeca, blueHerbs, yellowMicro, redGreens} from './Data';
+import { blueHerbs, yellowMicro, redGreens} from './Data';
 import ProductButton from '../../ProductButton';
 
 function Farm() {
@@ -8,7 +8,7 @@ function Farm() {
     <>
       
       <div className='productsPage'>
-      <FarmAbout {...tribeca}/>
+      <FarmAbout/>
       <h2 className= 'subheading'>Other Products</h2>
       <div className='productList'>
       <div><ProductButton {...yellowMicro} /></div>

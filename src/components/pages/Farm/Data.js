@@ -5,13 +5,6 @@ export const tribeca = {
 
 }
 
-export const otherProductList = {
-    page: '/',
-    productImg: 'images/red.jpg',
-    productName: 'Red',
-    alt: 'salad',
-}
-
 export const blueHerbs = {
     page: '/salads',
     productImg: 'images/blue.jpeg',

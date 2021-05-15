@@ -1,5 +1,4 @@
 import React from 'react';
-import './ProductButton.css';
 import { Link } from 'react-router-dom';
 
 function ProductButton({page, productImg, productName, alt}) {

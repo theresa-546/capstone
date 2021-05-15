@@ -1,11 +1,4 @@
 //blue herbs 
-export const lemonBalm = {
-    productName: 'Lemon Balm',
-    img1:'images/lemon balm.jpg',
-    img2:'images/lemon balm.jpg',
-    img3:'images/lemon balm.jpg',
-
-}
 
 export const lemonBalmAbout = {
     lightText: false,
