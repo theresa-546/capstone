@@ -27,15 +27,13 @@
 
 
 #mockup{
-  width: 70%;
-  margin-left: 50%;
-  left: 50%;
+  width: 50%;
+  margin-left: 48%;
   height: 50%;
-  margin-right: 10%;
 }
 
 .mockup-row{
-  width: 100%;
+  width:100%;
   display: flex;
   flex-direction: row;
   padding: 10px;
@@ -43,7 +41,7 @@
 
 .home_first-block{
   padding: 10px;
-  width: 80%;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -52,6 +50,7 @@
   height: 13em;
   padding: 10px;
   margin-top: 20px;
+  width: 100%;
 }
 
 #home-title-white{
@@ -120,7 +119,6 @@
 }
 
 .about_first-block{
-  margin-left: 10px;
   width: 100%;
   margin-top: 20px;
 }
@@ -157,7 +155,7 @@
   border-style: solid;
   border-color: #c0c0c0;
   border-width: 0.5px;
-  width: 45%;
+  width: 60%;
   height: 90%;
   margin: 10px;
 }
@@ -165,7 +163,7 @@
 .product_button-info{
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: flex-start;
   padding: 10px;
   width: 90%;
   height: 75%;
@@ -177,6 +175,10 @@
   color: black;
 }
 
+#product-img{
+  width: 70%;
+  margin-left: 15%;
+}
 
 .productsPage h2{
   margin-top: 30px;
@@ -245,7 +247,7 @@
 #heading{
   color: #8AAB62;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 20px;
   font-size: 25px;
   margin-bottom: 20px;
 }

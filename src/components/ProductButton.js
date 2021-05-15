@@ -11,7 +11,7 @@ function ProductButton({page, productImg, productName, alt}) {
           <div className='product_button-info'>
             
             <p id='product-text'>{productName}</p>
-            <img src={productImg} alt={alt} />
+            <img id='product-img' src={productImg} alt={alt} />
             
             
           </div>
