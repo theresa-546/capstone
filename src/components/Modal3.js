@@ -9,19 +9,20 @@ import {IoIosWater} from 'react-icons/io';
 
 const Background = styled.div`
 width: 100%;
-height: 325vh;
+height: 300vh;
 background: rgba(0, 0, 0, 0.8);
 position: fixed;
 display: flex;
 align-items: center;
 margin-left: -15px;
-z-index: 15;
+z-index: 17;
 `;
 
 const ModalWrapper = styled.div`
   width: 90%;
   height: 70%;
   margin-left: 15px;
+  margin-bottom: 50px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
@@ -99,7 +100,7 @@ export const Modal3 = ({ showModal3, setShowModal3 }) => {
             <ModalWrapper showModal3={showModal3}>
               <ModalContent>
                <div className='overlay-title'> <IoIosWater className='icons'/><p>Hydroponics</p></div>
-                <p>Hydroponic grows plants in a water-based 
+                <p className='overlay-text'>Hydroponic grows plants in a water-based 
 nutrient solution instead of soil. The water 
 is filled with nutrients, circulated 
 using pumps, and oxygenated.</p><img className='overlay-pic' src='images/hydroponics.png' alt='hydroponics icon'/>

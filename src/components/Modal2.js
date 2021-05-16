@@ -14,13 +14,14 @@ position: fixed;
 display: flex;
 align-items: center;
 margin-left: -15px;
-z-index: 15;
+z-index: 17;
 `;
 
 const ModalWrapper = styled.div`
   width: 90%;
   height: 50%;
   margin-left: 15px;
+  margin-bottom: 60px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
@@ -54,7 +55,6 @@ const CloseModalButton = styled(MdClose)`
   width: 32px;
   height: 32px;
   padding: 0;
-  // z-index: 10;
 `;
 
 export const Modal2 = ({ showModal2, setShowModal2 }) => {
@@ -99,8 +99,8 @@ export const Modal2 = ({ showModal2, setShowModal2 }) => {
           <animated.div style={animation}>
             <ModalWrapper showModal2={showModal2}>
               <ModalContent>
-               <div className='hydroponics-overlay-title'> <img className= 'iconssvg' src='images/vfarm.svg' alt='vertical farm icon'/><p>Vertical Farming</p></div>
-                <p>Vertical farming is used to grow plants 
+               <div className='vfarm-overlay-title'> <img className= 'iconssvg' src='images/vfarm.svg' alt='vertical farm icon'/><p>Vertical Farming</p></div>
+                <p className='overlay-text'>Vertical farming is used to grow plants 
 indoors, under artificial LED lights that 
 mimic the sun. The plants are stacked in 
 layers and grown using water-based 

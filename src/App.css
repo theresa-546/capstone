@@ -327,6 +327,20 @@
   font-size: 14px;
 }
 
+.vfarm-overlay-title{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -15px;
+  font-size: 16px;
+}
+
+.overlay-pic{
+  width: 60px;
+}
+
 /* individual plant page */
 
 .plant_info-container{
@@ -340,18 +354,6 @@
   
 }
 
-.hydroponics-overlay-title{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: -15px;
-}
-
-.overlay-pic{
-  width: 80px;
-}
 
 .slider{
   border: 1px solid #e7e7e7;
