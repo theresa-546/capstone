@@ -320,7 +320,11 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
+  font-size: 16px;
+}
 
+.overlay-text{
+  font-size: 14px;
 }
 
 /* individual plant page */

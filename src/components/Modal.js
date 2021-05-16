@@ -9,19 +9,20 @@ import {AiOutlineStop} from 'react-icons/ai';
 
 const Background = styled.div`
 width: 100%;
-height: 240vh;
+height: 290vh;
 background: rgba(0, 0, 0, 0.8);
 position: fixed;
 display: flex;
 align-items: center;
 margin-left: -15px;
-z-index: 15;
+z-index: 17;
 `;
 
 const ModalWrapper = styled.div`
   width: 90%;
-  height: 50%;
+  height: 40%;
   margin-left: 15px;
+  margin-bottom: 150px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
@@ -54,7 +55,6 @@ const CloseModalButton = styled(MdClose)`
   width: 32px;
   height: 32px;
   padding: 0;
-  // z-index: 10;
 `;
 
 export const Modal = ({ showModal, setShowModal }) => {
@@ -100,7 +100,7 @@ export const Modal = ({ showModal, setShowModal }) => {
             <ModalWrapper showModal={showModal}>
               <ModalContent>
                <div className='overlay-title'> <AiOutlineStop className='blue-icon'/><p>No Pesticides</p></div>
-                <p>No pesticides are used at all which is 
+                <p className='overlay-text'>No pesticides are used at all which is 
 even better than organic products. Some 
 organic products may still use pesticides. 
 Long-term exposure to toxic pesticides 
