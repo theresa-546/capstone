@@ -7,7 +7,7 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 function LemonBasil() {
   //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
   //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
-  let sliderArr = [<img id='plant-top-pic' src='images/lemon basil.jpeg'/>, <video src='images/lemon basil vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
+  let sliderArr = [<img id='plant-top-pic' src='images/lemon basil.jpeg' alt=''/>, <video src='images/lemon basil vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
   const [x, setX] = useState(0)
   const goLeft=()=>{
     x=== 0 ? setX(-100*(sliderArr.length-1)) : setX(x + 100);

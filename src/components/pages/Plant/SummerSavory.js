@@ -7,7 +7,7 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 function SummerSavory() {
   //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
   //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
-  let sliderArr = [<img id='plant-top-pic' src='images/summer savory.jpeg'/>, <img src='images/summer savory size.jpg'/>, <img src='images/summer savory size2.jpeg'/>, <video src='images/summer savory vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
+  let sliderArr = [<img id='plant-top-pic' src='images/summer savory.jpeg' alt=''/>, <img src='images/summer savory size.jpg' alt=''/>, <img src='images/summer savory size2.jpeg' alt=''/>, <video src='images/summer savory vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
   const [x, setX] = useState(0)
   const goLeft=()=>{
     x=== 0 ? setX(-100*(sliderArr.length-1)) : setX(x + 100);

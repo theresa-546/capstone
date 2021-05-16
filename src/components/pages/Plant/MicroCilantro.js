@@ -7,7 +7,7 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 function MicroCilantro() {
   //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
   //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
-  let sliderArr = [<img id='plant-top-pic' src='images/micro leisure cilantro.jpeg'/>, <img src='images/micro leisure cilantro size.jpeg'/>, <img src='images/micro leisure cilantro package.jpeg'/>, <video src='images/micro leisure cilantro vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
+  let sliderArr = [<img id='plant-top-pic' src='images/micro leisure cilantro.jpeg' alt=''/>, <img src='images/micro leisure cilantro size.jpeg' alt=''/>, <img src='images/micro leisure cilantro package.jpeg' alt=''/>, <video src='images/micro leisure cilantro vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
   const [x, setX] = useState(0)
   const goLeft=()=>{
     x=== 0 ? setX(-100*(sliderArr.length-1)) : setX(x + 100);

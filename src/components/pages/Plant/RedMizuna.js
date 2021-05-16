@@ -8,7 +8,7 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 function RedMizuna() {
   //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
   //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
-  let sliderArr = [<img id='plant-top-pic' src='images/red mizuna.jpg'/>, <img src='images/red mizuna size 2.jpg'/>, <img id='plant-top-pic' src='images/red mizuna pot.jpg'/>, <video src='images/red mizuna vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
+  let sliderArr = [<img id='plant-top-pic' src='images/red mizuna.jpg' alt=''/>, <img src='images/red mizuna size 2.jpg' alt=''/>, <img id='plant-top-pic' src='images/red mizuna pot.jpg' alt=''/>, <video src='images/red mizuna vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
   const [x, setX] = useState(0)
   const goLeft=()=>{
     x=== 0 ? setX(-100*(sliderArr.length-1)) : setX(x + 100);

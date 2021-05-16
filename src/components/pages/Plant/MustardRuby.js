@@ -7,7 +7,7 @@ import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/i
 function MustardRuby() {
   //slider from Arslan's Make a Simple ReactJS Carousel! Using ReactSlick
   //https://www.youtube.com/watch?v=oCMwPNKbuag&ab_channel=Arslan
-  let sliderArr = [<img id='plant-top-pic' src='images/micro ruby streak mustard.jpg'/>, <img src='images/micro ruby streak mustard size.jpg'/>, <video src='images/micro ruby streak mustard vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
+  let sliderArr = [<img id='plant-top-pic' src='images/micro ruby streak mustard.jpg' alt=''/>, <img src='images/micro ruby streak mustard size.jpg' alt=''/>, <video src='images/micro ruby streak mustard vid.mp4' width="100%" height="300" controls="controls" autoplay="false" />];
   const [x, setX] = useState(0)
   const goLeft=()=>{
     x=== 0 ? setX(-100*(sliderArr.length-1)) : setX(x + 100);

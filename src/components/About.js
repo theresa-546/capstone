@@ -59,7 +59,7 @@ function About({lightText, lightTextDesc, description, harvestTime}) {
                   <Container><AiOutlineStop className= 'icons'/> No pesticides <Button onClick={openModal}><IoMdInformationCircleOutline className='i-icon'/></Button><Modal showModal={showModal} setShowModal={setShowModal} /></Container>
                 </p>
                 <p className='infographic-text'>
-                 <Container><div className='about-line-icon'><img className= 'iconssvg' src='images/vfarm.svg'/> Vertical Farming <Button onClick={openModal2}><IoMdInformationCircleOutline className='i-icon'/></Button></div><Modal2 showModal2={showModal2} setShowModal2={setShowModal2} /></Container>
+                 <Container><div className='about-line-icon'><img className= 'iconssvg' src='images/vfarm.svg' alt='vertical farm icon'/> Vertical Farming <Button onClick={openModal2}><IoMdInformationCircleOutline className='i-icon'/></Button></div><Modal2 showModal2={showModal2} setShowModal2={setShowModal2} /></Container>
                 </p> 
                 <p className='infographic-text'>
                   <Container><div className='about-line-icon'><IoIosWater className= 'icons'/> Hydroponics <Button onClick={openModal3}><IoMdInformationCircleOutline className='i-icon'/></Button></div><Modal3 showModal3={showModal3} setShowModal3={setShowModal3} /></Container>

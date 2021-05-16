@@ -102,7 +102,7 @@ export const Modal3 = ({ showModal3, setShowModal3 }) => {
                 <p>Hydroponic grows plants in a water-based 
 nutrient solution instead of soil. The water 
 is filled with nutrients, circulated 
-using pumps, and oxygenated.</p><img className='overlay-pic' src='images/hydroponics.png'/>
+using pumps, and oxygenated.</p><img className='overlay-pic' src='images/hydroponics.png' alt='hydroponics icon'/>
 
               </ModalContent>
               <CloseModalButton

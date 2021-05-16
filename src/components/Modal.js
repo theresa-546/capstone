@@ -105,7 +105,7 @@ even better than organic products. Some
 organic products may still use pesticides. 
 Long-term exposure to toxic pesticides 
 may increase risk for health problems 
-such as asthma and diabetes. </p><img className='overlay-pic' src='images/pesticide.png'/>
+such as asthma and diabetes. </p><img className='overlay-pic' src='images/pesticide.png' alt='pesticide icon'/>
 
               </ModalContent>
               <CloseModalButton

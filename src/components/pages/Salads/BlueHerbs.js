@@ -7,7 +7,7 @@ function BlueHerbs() {
     <>
       <div className='salad-preview'>
     <h1 id="heading">Blue Herbs Salad</h1>
-    <img id='salad-pic' src='images/blue.jpeg'/>
+    <img id='salad-pic' src='images/blue.jpeg' alt=''/>
     
       <div className= 'saladContents'>
         <p className='subheading'>Salad Contents</p>

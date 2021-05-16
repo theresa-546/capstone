@@ -9,7 +9,7 @@ function Traceability() {
     <div className='col'>
             
               <div className='top-line'>Traceability</div>
-                 <Link to='/farm'> <div><img className='farm-img' src='images/tribeca.jpeg'/></div> </Link>
+                 <Link to='/farm'> <div><img className='farm-img' src='images/tribeca.jpeg' alt='farm.one tribeca image'/></div> </Link>
                 <div className='farmTitle'>
                   <p>Farm.One Tribeca</p> <Link to='/farm'>
                   <Button buttonSize='btn--mobile' buttonColor='blue'>

@@ -8,7 +8,7 @@ function FarmAbout() {
             <div className='col'>
               <div className='farm-about_container'>
               <div className='top-line'>Farm.One Tribeca</div>
-                  <div><img src='images/tribeca.jpeg'/></div> 
+                  <div><img src='images/tribeca.jpeg' alt='farm.one tribeca'/></div> 
               <p className='trib-text' >
                   Tribeca, New York
                 </p>

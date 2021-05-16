@@ -99,12 +99,12 @@ export const Modal2 = ({ showModal2, setShowModal2 }) => {
           <animated.div style={animation}>
             <ModalWrapper showModal2={showModal2}>
               <ModalContent>
-               <div className='hydroponics-overlay-title'> <img className= 'iconssvg' src='images/vfarm.svg'/><p>Vertical Farming</p></div>
+               <div className='hydroponics-overlay-title'> <img className= 'iconssvg' src='images/vfarm.svg' alt='vertical farm icon'/><p>Vertical Farming</p></div>
                 <p>Vertical farming is used to grow plants 
 indoors, under artificial LED lights that 
 mimic the sun. The plants are stacked in 
 layers and grown using water-based 
-method like hydroponics. </p><img className='overlay-pic' src='images/vertical-farm-overlay.png'/>
+method like hydroponics. </p><img className='overlay-pic' src='images/vertical-farm-overlay.png' alt='vertical farm overlay icon'/>
 
               </ModalContent>
               <CloseModalButton

@@ -7,7 +7,7 @@ function YellowMicroGreens() {
     <>
     <div className='salad-preview'>
     <h1 id="heading">Yellow Micro Greens</h1>
-    <img id='salad-pic' src='images/yellow.jpeg'/>
+    <img id='salad-pic' src='images/yellow.jpeg' alt=''/>
     
       <div className= 'saladContents'>
         <p className='subheading'>Salad Contents</p>
