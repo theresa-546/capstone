@@ -2,7 +2,6 @@ import React, { useState }  from 'react';
 import About from '../../About';
 import Traceability from '../../Traceability';
 import { microLovageAbout} from './Data';
-import 'react-alice-carousel/lib/alice-carousel.css';
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io';
 
 
